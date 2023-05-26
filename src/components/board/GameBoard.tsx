@@ -28,7 +28,7 @@ function GameBoard(): ReactElement {
 }
 
 
-export default function GameBoardContainer(): ReactElement {
+export function GameBoardContainer(): ReactElement {
     return (
         <div className='h-full w-full flex flex-col items-center justify-center border-4 border-spacing-4'>
             <GameBoard />

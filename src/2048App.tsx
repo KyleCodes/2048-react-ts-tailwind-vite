@@ -1,5 +1,5 @@
-import React, { ReactElement, useState } from 'react'
-import GameBoardContainer from './components/board/GameBoard';
+import React, { ReactElement } from 'react'
+import { GameBoardContainer as GameBoard } from './components/board/GameBoard';
 import Header from './components/header/Header';
 
 const styles = {
@@ -23,7 +23,7 @@ export default function App(): ReactElement {
   return (
     <div className={styles.app + styles.text}>
       <Header />
-      <GameBoardContainer />
+      <GameBoard />
     </div>
   )
 }
