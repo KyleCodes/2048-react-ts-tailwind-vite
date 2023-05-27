@@ -1,6 +1,8 @@
 import React, { ReactElement } from 'react'
+import SharedTileStyles from './sharedTileStyles'
 
 const styles = {
+    base_tile: SharedTileStyles.tile,
     bg_tile: `
     flex 
     flex-col 
@@ -12,19 +14,12 @@ const styles = {
     flex-grow
     aspect-square
   `
-}
+};
 
-type TileProps = Readonly<{
-    value: number,
-}>
-
-export default function BGTile(props: TileProps): ReactElement {
-
-    const { value } = props;
+export default function BGTile(): ReactElement {
 
     return (
-        <div className={styles.bg_tile}>
-            {value}
+        <div className={styles.base_tile + styles.bg_tile}>
         </div>
-    )
+    );
 }

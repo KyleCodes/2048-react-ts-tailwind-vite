@@ -10,7 +10,7 @@ const styles = {
       items-center
       p-2
       text-4xl
-    `,
+    `
 };
 
 export default function Header(): ReactElement {
