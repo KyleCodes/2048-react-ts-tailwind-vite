@@ -1,6 +1,6 @@
-import React, { ReactElement } from 'react'
-import { GameBoardContainer as GameBoard } from './components/board/GameBoard';
-import Header from './components/header/Header';
+import React, {ReactElement} from "react"
+import {GameBoardContainer as GameBoard} from "./components/board/GameBoard"
+import Header from "./components/header/Header"
 
 const styles = {
   app: `
@@ -17,7 +17,7 @@ const styles = {
     text-3xl 
     font-bold
   `,
-};
+}
 
 export default function App(): ReactElement {
   return (

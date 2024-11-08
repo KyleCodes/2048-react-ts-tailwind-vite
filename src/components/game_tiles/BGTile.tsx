@@ -1,9 +1,9 @@
-import React, { ReactElement } from 'react'
-import SharedTileStyles from './sharedTileStyles'
+import React, {ReactElement} from "react"
+import SharedTileStyles from "./sharedTileStyles"
 
 const styles = {
-    base_tile: SharedTileStyles.tile,
-    bg_tile: `
+  base_tile: SharedTileStyles.tile,
+  bg_tile: `
     flex 
     flex-col 
     justify-center 
@@ -13,13 +13,10 @@ const styles = {
     bg-gray-700
     flex-grow
     aspect-square
-  `
-};
+  `,
+}
 
 export default function BGTile(): ReactElement {
-
-    return (
-        <div className={styles.base_tile + styles.bg_tile}>
-        </div>
-    );
+  console.log("hello world")
+  return <div className={styles.base_tile + styles.bg_tile}></div>
 }

@@ -1,5 +1,5 @@
 const SharedTileStyles = {
-    tile: `
+  tile: `
         aspect-square
         rounded
         flex 
@@ -9,6 +9,6 @@ const SharedTileStyles = {
         items-center 
         text-5xl
     `,
-};
+}
 
-export default SharedTileStyles;
+export default SharedTileStyles

@@ -1,7 +1,7 @@
-import React, { ReactElement } from 'react'
+import React, {ReactElement} from "react"
 
 const styles = {
-    header: `
+  header: `
       flex 
       flex-row 
       w-full 
@@ -10,13 +10,13 @@ const styles = {
       items-center
       p-2
       text-4xl
-    `
-};
+    `,
+}
 
 export default function Header(): ReactElement {
-    return (
-        <div className={styles.header}>
-            <h1>2048</h1>
-        </div>
-    )
+  return (
+    <div className={styles.header}>
+      <h1>2048</h1>
+    </div>
+  )
 }
